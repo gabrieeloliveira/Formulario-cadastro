@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/favicon2.png" type="image/x-icon">
     <title>Formulário de Cadastro</title>
 </head>
 <body>
@@ -56,29 +56,31 @@
                     </div>
                     <div class="gender-group">
                         <div class="gender-input">
-                            <input type="radio" id="female" nome="gender" checked>
+                            <input type="radio" id="female" name="gender" checked>
                             <label for="female">Feminino</label>
                         </div>
                         <div class="gender-input">
-                            <input type="radio" id="male" nome="gender">
+                            <input type="radio" id="male" name="gender">
                             <label for="male">Masculino</label>
                         </div>
                         <div class="gender-input">
-                            <input type="radio" id="others" nome="gender">
+                            <input type="radio" id="others" name="gender">
                             <label for="others">Outros</label>
                         </div>
                         <div class="gender-input">
-                            <input type="radio" id="none" nome="gender">
+                            <input type="radio" id="none" name="gender">
                             <label for="none">Prefiro não dizer</label>
                         </div>
                     </div>
                 </div>
                 <div class="continue-button">
-                    <button><a href="#">Continuar</a></button>
+                    <button onclick="clickar()"><a href="#">Continuar</a></button>
                 </div>
 
             </form>
         </div>
     </div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
